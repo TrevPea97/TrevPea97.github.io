@@ -1,64 +1,91 @@
+@font-face {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
 
 body{
-	background-image: url("../images/background.jpg")
+	background: url("../images/background-image.png") no-repeat center center fixed;
+	background-size: cover;
+
 }
-div{
-	background-color: white;
-	margin: 10px;
-	width: 25%
-}
-div{
-	border: solid 2px antiquewhite;
-	padding: 10px;
-}
-h1, h3, span{
-	font-weight: bold;
-	text-align: center;
-}
+
 h1{
-	font-size: 30pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90px;
+	margin-top: 3vh;
+	margin-bottom: 1vh;
 }
-ol{
-	list-style: decimal inside; 
+
+.row{
+	margin-bottom: 4vh;
+	margin-left: 3vw;
+	margin-right: 3vw;
 }
-ul {
-	list-style: disc inside;
-	text-indent: 20px;
+
+.btn{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #151616;
+	color: white;
+	padding: 1vh 1vw;
 }
-/* Specfic Elements*/
-div.header, div.gems{
-	background-color: #e0e0eb;
+
+.btn:hover{
+	color: #efad07;
 }
-div.header, div.instructions{
-	width: 50%;
+
+.btn:focus{
+	outline: 2px solid #0f0f0e !important;
+	background-color: #1680bc;
+	color: #efad07;
 }
-/* Classes */
-.numberToMatch, .winsAndLosses{
+
+.rapper-button{
+	margin: .5vh 1vw;
+}
+
+.dotted-border{
+	border: 6px double #525151;
+}
+
+.comic-sans-font{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	color: black;
+}
+
+.gif-image{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.individual-gif-container{
 	float: left;
-	width: 15%;
-	height: 60px;
+	margin: 2vh 3vw 2vh 3vw;
 }
-.userTotal{
-	width: 15%;
-	height: 60px;
+
+#submit{
+	margin-top: 1.5vh;
 }
-.gems{
-	clear: both;
+
+#rapper-show{
+	margin-top: 1.5vh;
+	width: 100%;
 }
-.gemImage{
-	height: 60px;
-	margin: 10px;
+
+#rapper-show:focus{
+	outline: 2px solid #efad07 !important;
 }
-/* IDs */
-#blue{
-	color: #3092c7;
+
+#gif-container{
+	font-size: 22px;
 }
-#green{
-	color: #00aa59;
-}
-#red{
-	color: #ec4b5f;
-}
-#yellow{
-	color: #ffc225;
-}
+
